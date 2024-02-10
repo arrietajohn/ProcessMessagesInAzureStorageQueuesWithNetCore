@@ -1,0 +1,264 @@
+{
+  "Type": "Notification",
+  "MessageId": "d8778f8f-87b3-5039-bc81-d1a323a089be",
+  "TopicArn": "arn:aws:sns:us-east-cuenta-s3-:domio_cliente_aws",
+  "Subject": "Notificacion enviada desde Amazon  S3",
+  "Message": {
+    "notificationType": "Received",
+    "mail": {
+      "timestamp": "2024-01-25T19:42:03.180Z",
+      "source": "remitente@gmail.com",
+      "messageId": "see26v1dojb0o3369pf6laodtg6roscu96g34301",
+      "destination": [
+        "destinatario@hotmail.com"
+      ],
+      "headersTruncated": false,
+      "headers": [
+        {
+          "name": "Return-Path",
+          "value": "<remitente@gmail.com>"
+        },
+        {
+          "name": "Received",
+          "value":"Datos de la aplicacion que recibi� y almacen� el mensaje - en este caso fue S3 de AWS"
+        },
+        {
+          "name": "X-SES-Spam-Verdict",
+          "value": "PASS"
+        },
+        {
+          "name": "X-SES-Virus-Verdict",
+          "value": "PASS"
+        },
+        {
+          "name": "Received-SPF",
+          "value": "Datos de mensaje recibido"
+        },
+        {
+          "name": "Authentication-Results",
+          "value": "Datos de la autenticacion"
+        },
+        {
+          "name": "X-SES-RECEIPT",
+          "value": "cadena-cifrada-en-base-64"
+        },
+        {
+          "name": "X-SES-DKIM-SIGNATURE",
+          "value": "Datos de la firma digital del aws"
+        },
+        {
+          "name": "ARC-Seal",
+          "value": "i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none; b=texto-cifrado-en-base-64"
+        },
+        {
+          "name": "ARC-Message-Signature",
+          "value": "Datos de lafirma del mensaje"
+        },
+        {
+          "name": "ARC-Authentication-Results",
+          "value": "Datos de la firma de la aplicacion que envia el mensaje"
+        },
+        {
+          "name": "DKIM-Signature",
+          "value": "Datos de la firma"
+        },
+        {
+          "name": "Received",
+          "value": "Datos sobre el mensaje"
+        },
+        {
+          "name": "From",
+          "value": "ASUNDO DEL MENSAJE AWS<remitente@gmail.com>"
+        },
+        {
+          "name": "To",
+          "value": "\"destinatario@hotmail.com\" <destinatario@hotmail.com>"
+        },
+        {
+          "name": "Subject",
+          "value": "Notificacion;DocumentoId;ClienteNit;ClienteNombre;DodFerenciaId;notificacioniId;OficinaNombre"
+        },
+        {
+          "name": "Thread-Topic",
+          "value": "Evento; 030; QA31871;NIT. 900156264;NUEVA EMPRESA PROMOTORA DE SALUD S.A."
+        },
+        {
+          "name": "Thread-Index",
+          "value": "AQHaT8aQQkL38SKhCEKMk1NpE6L2MLDq7ZSx"
+        },
+        {
+          "name": "Date",
+          "value": "Thu, 25 Jan 2024 19:42:01 +0000"
+        },
+        {
+          "name": "Message-ID",
+          "value": "<ce03d541c75443b3ae6c3947a0267c84@BY5PR14MB3752.namprd14.prod.outlook.com>"
+        },
+        {
+          "name": "References",
+          "value": "<0100018d4224a84c-286f836c-ec81-40a1-8cfd-7e0b0e790c03-000000@email.amazonses.com>"
+        },
+        {
+          "name": "In-Reply-To",
+          "value": "<0100018d4224a84c-286f836c-ec81-40a1-8cfd-7e0b0e790c03-000000@email.amazonses.com>"
+        },
+        {
+          "name": "X-MS-Has-Attach",
+          "value": "yes"
+        },
+        {
+          "name": "X-MS-Exchange-Inbox-Rules-Loop",
+          "value": "remitente@gmail.com"
+        },
+        {
+          "name": "X-MS-TNEF-Correlator",
+          "value": ""
+        },
+        {
+          "name": "authentication-results",
+          "value": "dkim=none (message not signed) header.d=none;dmarc=none action=none header.from=dominiodelclienteaws.com;"
+        },
+        {
+          "name": "x-ms-exchange-parent-message-id",
+          "value": "<0100018d4224a84c-286f836c-ec81-40a1-8cfd-7e0b0e790c03-000000@email.amazonses.com>"
+        },
+        {
+          "name": "auto-submitted",
+          "value": "auto-generated"
+        },
+        {
+          "name": "x-ms-exchange-generated-message-source",
+          "value": "Mailbox Rules Agent"
+        },
+        {
+          "name": "x-ms-publictraffictype",
+          "value": "Email"
+        },
+        {
+          "name": "x-ms-traffictypediagnostic",
+          "value": "BY5PR14MB3752:EE_|SA1PR14MB6056:EE_"
+        },
+        {
+          "name": "x-ms-office365-filtering-correlation-id",
+          "value": "c9e200d8-c510-428b-eb8f-08dc1dddb327"
+        },
+        {
+          "name": "x-ms-exchange-senderadcheck",
+          "value": "1"
+        },
+        {
+          "name": "x-ms-exchange-antispam-relay",
+          "value": "0"
+        },
+        {
+          "name": "x-microsoft-antispam",
+          "value": "BCL:0;"
+        },
+        {
+          "name": "x-microsoft-antispam-message-info",
+          "value": "ctexto-cifrado-en-base-64"
+        },
+        {
+          "name": "x-forefront-antispam-report"
+        },
+        "value",
+        :,
+        "encabezado email Exchange Online Protection",
+        {
+          "name": "x-ms-exchange-antispam-messagedata-chunkcount",
+          "value": "1"
+        },
+        {
+          "name": "x-ms-exchange-antispam-messagedata-0",
+          "value": ""
+        },
+        {
+          "name": "Content-Type",
+          "value": "multipart/mixed; boundary=\"_004_ce03d541c75443b3ae6c3947a0267c84BY5PR14MB3752namprd14pr_\""
+        },
+        {
+          "name": "MIME-Version",
+          "value": "1.0"
+        },
+        {
+          "name": "X-OriginatorOrg",
+          "value": "dominiodelclienteaws.com"
+        },
+        {
+          "name": "X-MS-Exchange-CrossTenant-AuthAs",
+          "value": "Internal"
+        },
+        {
+          "name": "X-MS-Exchange-CrossTenant-AuthSource",
+          "value": "BY5PR14MB3752.namprd14.prod.outlook.com"
+        },
+        {
+          "name": "X-MS-Exchange-CrossTenant-Network-Message-Id",
+          "value": "c9e200d8-c510-428b-eb8f-08dc1dddb327"
+        },
+        {
+          "name": "X-MS-Exchange-CrossTenant-originalarrivaltime",
+          "value": "25 Jan 2024 19:42:01.0142 (UTC)"
+        },
+        {
+          "name": "X-MS-Exchange-CrossTenant-fromentityheader",
+          "value": "Hosted"
+        },
+        {
+          "name": "X-MS-Exchange-CrossTenant-id",
+          "value": "b1c95353-4e8f-45f9-b742-fecc9cf34f40"
+        },
+        {
+          "name": "X-MS-Exchange-Transport-CrossTenantHeadersStamped",
+          "value": "SA1PR14MB6056"
+        }
+      ],
+      "commonHeaders": {
+        "returnPath": "remitente@gmail.com",
+        "from": [
+          "ASUNDO DEL MENSAJE AWS<remitente@gmail.com>"
+        ],
+        "date": "Thu, 25 Jan 2024 19:42:01 +0000",
+        "to": [
+          "\"destinatario@hotmail.com\" <destinatario@hotmail.com>"
+        ],
+        "messageId": "<ce03d541c75443b3ae6c3947a0267c84@BY5PR14MB3752.namprd14.prod.outlook.com>",
+        "subject": "Notificacion;DocumentoId;ClienteNit;ClienteNombre;DodFerenciaId;notificacioniId;OficinaNombre"
+      }
+    },
+    "receipt": {
+      "timestamp": "2024-01-25T19:42:03.180Z",
+      "processingTimeMillis": 985,
+      "recipients": [
+        "destinatario@hotmail.com"
+      ],
+      "spamVerdict": {
+        "status": "PASS"
+      },
+      "virusVerdict": {
+        "status": "PASS"
+      },
+      "spfVerdict": {
+        "status": "PASS"
+      },
+      "dkimVerdict": {
+        "status": "PASS"
+      },
+      "dmarcVerdict": {
+        "status": "PASS"
+      },
+      "action": {
+        "type": "S3",
+        "topicArn": "arn:aws:sns:us-east-cuenta-s3-:domio_cliente_aws",
+        "bucketName": "newfactureinbox.co",
+        "objectKeyPrefix": "",
+        "objectKey": "see26v1dojb0o3369pf6laodtg6roscu96g34301"
+      }
+    }
+  },
+  "Timestamp": "2024-01-25T18:00:51.939Z",
+  "SignatureVersion": "1",
+  "Signature": "texto-cifrada-en-base-64",
+  "SigningCertURL": "url-firma-digital",
+  "UnsubscribeURL": "url-app-firma-digital"
+}
